@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
 
 INSERT INTO albums (song_name, artist, release_date, genre, sales)
 VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, post-disco, funk, rock', 51.2),
@@ -22,7 +23,7 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, post-disco, funk, rock', 51.2
        ('Bob Marley & The Wailers', 'Legend: The Best of Bob Marley & The Wailers', 1984, 'Reggae', 22.9),
        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 'Hard rock', 22.8),
        ('Bruce Springsteen', 'Born in the U.S.A.', 1984, 'Heartland rock', 22),
-       ('ABBA', 'Gold: Greatest Hits', 1992, 'Pop, disco', 21.6),
+       ('ABBA', 'Gold', 1992, 'Pop, disco', 21.6),
        ('Dire Straits', 'Brothers in Arms', 1985, 'Roots rock, blues rock, soft rock', 21.1),
        ('Santana', 'Supernatural', 1999, 'Latin rock', 20.8),
        ('Madonna', 'The Immaculate Collection', 1990, 'Pop, dance', 19.8),
